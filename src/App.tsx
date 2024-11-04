@@ -1,4 +1,4 @@
-import { Route, Router, Routes } from "react-router-dom"
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom"
 import Loader from "./pages/loader"
 import { Suspense } from "react"
 import Approach from "./pages/Approach"
