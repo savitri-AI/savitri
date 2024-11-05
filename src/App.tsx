@@ -1,5 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom"
-import Loader from "./pages/loader"
+// import Loader from "./pages/loader"
 import { Suspense } from "react"
 import Approach from "./pages/Approach"
 
@@ -7,7 +7,7 @@ const App = () => {
   return  (
     <Router>
 
-      <Suspense fallback={<Loader/>}>
+      <Suspense>
         <Routes>
           <Route path="/" element={<Approach/>} />
         </Routes>

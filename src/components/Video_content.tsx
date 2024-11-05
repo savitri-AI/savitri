@@ -1,4 +1,3 @@
-import React from 'react'
 import one from "../assets/video/one.mp4";
 import two from "../assets/video/two.mp4";
 import three from "../assets/video/three.mp4";
