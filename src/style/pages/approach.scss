@@ -48,18 +48,28 @@
     .add-button-and-video-container{
         display: flex;
         justify-content: center;
-        overflow-x: scroll;
+        // overflow-x: ;
 
     
     }
 
     .video-content-contanier{
         display: flex;
+        flex-direction: column;
 
 
         video{
             // object-fit: contain;
             width: 100%;
+        }
+
+        .prompt{
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            opacity: 0.7;
+            margin:10vw 2vw;
+            
+            text-align: center;
         }
     }
     
@@ -69,17 +79,7 @@
     
     
     
-    #slideLeft, #slideRight{
-        // background-color: green;
-        // width: 5rem;
-        // outline: none;
-        // border: none;
-        // color: white;
-        // font-size: 3rem;
-        // padding: 1rem;
-        // cursor: pointer;
-    
-    }
+   
     
 
 }
@@ -147,12 +147,23 @@
     
     }
 
-    .video-content-container{
-        // object-fit: cover;
+    .video-content-contanier{
+        display: flex;
+        flex-direction: column;
 
 
         video{
+            // object-fit: contain;
             width: 100%;
+        }
+
+        .prompt{
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            opacity: 0.7;
+            margin:10vw 2vw;
+            
+            text-align: center;
         }
     }
     
@@ -163,17 +174,7 @@
     
     
     
-    #slideLeft, #slideRight{
-        // background-color: green;
-        width: 5rem;
-        outline: none;
-        border: none;
-        color: white;
-        font-size: 3rem;
-        // padding: 1rem;
-        // cursor: pointer;
-    
-    }
+  
     
 
     

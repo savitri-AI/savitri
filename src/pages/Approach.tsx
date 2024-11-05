@@ -1,7 +1,10 @@
 import Navbar from "../components/Navbar";
 import approch_image from "../assets/Images/approch.png";
-import one from "../assets/video/one.mp4";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+
+
+import Video_content from "../components/Video_content";
+import Footer from "../components/Footer";
+
 
 
 
@@ -34,25 +37,15 @@ const Approach = () => {
 
         {/* first video content here  */}
 
-        <div className="add-button-and-video-container">
-          <button id="slideLeft" type="button">
-            <FaChevronLeft />
-          </button>
-          <div className="video-content-contanier">
+        <Video_content/>
 
-            
-            <video autoPlay controls>
-              <source src={one} type="video/mp4" />
-            </video>
+        {/* footer  */}
+        <Footer/>
 
-
-
-          </div>
-          <button id="slideRight" type="button">
-            <FaChevronRight />
-          </button>
-        </div>
+        
       </div>
+
+      {/* <Slider/> */}
     </div>
   );
 };

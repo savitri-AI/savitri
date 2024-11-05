@@ -2,6 +2,7 @@
 @use 'pages/loader.scss';
 @use 'components/navbar.scss';
 @use 'pages/approach.scss';
+@use 'components/footer.scss';
 
 :root{
     line-height: 1.5;
@@ -11,6 +12,7 @@
 body{
     user-select: none;
 }
+
 
 
 *{
